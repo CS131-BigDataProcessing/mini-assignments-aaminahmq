@@ -1,0 +1,2 @@
+6 -Number of lines that That have "Good luck, babe" in the file
+78 - Number of "Good luck, babe" words in the file

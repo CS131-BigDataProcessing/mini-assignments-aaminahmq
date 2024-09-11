@@ -1,0 +1,246 @@
+    1  git clone git@github.com:aaminahmq/a1-collab-aaminahmq.gi
+    2  git clone git@github.com:aaminahmq/a1-collab-aaminahmq.git
+    3  git clone https://github.com/aaminahmq/a1-collab-aaminahmq.git
+    4  git branch aaminahmq-colab
+    5  ls
+    6  sd
+    7  cd
+    8  cd a1-collab-aaminahmq/
+    9  git branch aaminahmq-colab
+   10  git branch
+   11  git checkout aaminahmq-collab
+   12  git checkout aaminahmq-colab
+   13  ls
+   14  vi
+   15  passwd
+   16  wget www.github.com
+   17  git clone git@github.com:your/github/repository
+   18  git clone git@github.com:aaminahmq/a1-collab-aaminahmq
+   19  git clone https://github.com/aaminahmq/a1-collab-aaminahmq.git
+   20  ls
+   21  cd
+   22  cd a1-collab-aaminahmq/
+   23  git branch aaminahmq-collab
+   24  git branch aaminahmq-colab
+   25  git checkout aaminahmq-colab
+   26  git checkout aaminahmq-collab
+   27  git branch
+   28  vi Collaborators.md 
+   29  git status
+   30  cd [https://github.com/aaminahmq/a1-collab-aaminahmq.git]
+   31  cd https://github.com/aaminahmq/a1-collab-aaminahmq.git
+   32  ls
+   33  git status
+   34  git branch
+   35  git clone https://github.com/aaminahmq/a1-collab-aaminahmq.git
+   36  cd a1-collab-aaminahmq/
+   37  git branch
+   38  git status
+   39  cd a1-colab-aaminahmq
+   40  cd a1-colab-aaminahmq/
+   41  vi Collaborators.md 
+   42  git status
+   43  git push --set-upstream origin aaminahmq-collab
+   44  git pull origin main 
+   45  git checkout main
+   46  git merge aaminahmq-collab
+   47  git add Collaborators.md 
+   48  git commit -m
+   49  git commit -m "Finished adding my name Aaminah Mohammad and favorite restaurant in the Collaborators.md file" 
+   50  git commit -m :"Aaminah Mohammad added to collaborators"
+   51  cd 
+   52  git clone git@github.com:aaminahmq/a1-collab-aaminahmq.git
+   53  ls -f
+   54  ls
+   55  ls -f/
+   56  la-latr
+   57  ls-latr
+   58  ls -latr
+   59  git remote -v
+   60  cd a1-collab-aaminahmq/
+   61  git remote -v
+   62  git remote set-url origin git@github.com:aaminahmq/a1-collab-aaminahmq.git
+   63  git status
+   64  git branch
+   65  git checkout aaminahmq-col
+   66  git checkout aaminahmq-collab
+   67  vi Collaborators.md 
+   68  ls
+   69  git pull origin main 
+   70  pwd
+   71  git add Collaborators.md 
+   72  git commit -m "Aaminah Mohammad added to collaborators"
+   73  git pull
+   74  ls -a
+   75  cd
+   76  nano ~/.ssh/config
+   77   ls -al ~/.ssh
+   78   ssh-keygen -t ed25519 -C "aaminah.mq@gmail.com"
+   79  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+   80  Start-Service ssh-agent
+   81  ssh-add /mnt/scratch/FA24_CS131_Jessica/amohammadfa24/.ssh/id_ed25519.pub.
+   82  ls
+   83  git remote -v
+   84  cd
+   85  cd a1-collab-aaminahmq/
+   86  git remote -v
+   87  git remote set-url origin git@github.com:aaminahmq/a1-collab-aaminahmq.git
+   88  git branch
+   89  git status
+   90  git push --set-upstream origin aaminahmq-collab
+   91  git pull origin main
+   92  ls ~/.ssh/*.pub
+   93  ssh-keygen -t ed25519 -C "aaminah.mq@gmail.com"
+   94  cat ~/.ssh/id_rsa.pub
+   95   ssh-keygen -t ed25519 -C "aaminah.mq@gmail.com"
+   96  cat ~/.ssh/id_rsa.pub
+   97  cd
+   98  cat ~/.ssh/id_rsa.pub
+   99  pbcopy < ~/.ssh/id_rsa.pub
+  100  eval "$(ssh-agent -s)"
+  101   open ~/.ssh/config
+  102  pbcopy < ~/.ssh/id_ed25519.pub
+  103  ls
+  104  cd a1-collab-aaminahmq/
+  105  git push --set-upstream origin aaminahmq-collab
+  106  git branch
+  107  git checkout aaminahmq-col
+  108  git checkout aaminahmq-collab
+  109  git pull origin main 
+  110  git checkout main
+  111  git merge aaminahmq-collab
+  112  git add Collaborators.md 
+  113  git commit 'm "Aaminah Mohammad added to the collaborators"
+  114  git push
+  115  ls -al ~/.ssh
+  116  eval"$(ssh-agent -s)"
+  117  cd
+  118  ssh-keygen -t rsa -b 4096 -C "aaminah.mq@gmail.com"
+  119  eval"$(ssh-agent -s)"
+  120  ssh-agent
+  121  env=~/.ssh/agent.env
+  122  agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+  123  agent_start () {     (umask 077; ssh-agent >| "$env");     . "$env" >| /dev/null ; }
+  124  agent_load_env
+  125  # agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+  126  agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+  127  if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then     agent_start;     ssh-add; elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then     ssh-add; fi
+  128  unset env
+  129  cd
+  130  ls
+  131  cd a1-collab-aaminahmq/
+  132  git status
+  133  git pull origin main
+  134  cd
+  135  env=~/.ssh/agent.env
+  136  agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+  137  agent_start () {     (umask 077; ssh-agent >| "$env");     . "$env" >| /dev/null ; }
+  138  agent_load_env
+  139  # agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+  140  agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+  141  if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then     agent_start;     ssh-add; elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then     ssh-add; fi
+  142  unset env
+  143  ssh-add 
+  144  eval"$(ssh-agent -s)"
+  145  ssh-keygen -t rsa -b 4096 -C "aaminah.mq@gmail.com"
+  146  eval"$(ssh-agent -s)"
+  147  ssh-add ~/.ssh/id_rsa
+  148  cat ~/.ssh/id_ed25519.pub
+  149  cd a1-collab-aaminahmq/
+  150  git status
+  151  cd a1-collab-aaminahmq/
+  152  git add Collaborators.md 
+  153  git commit -m "Aaminah Mohammad added to collaborators"
+  154  git config user.email "aaminah.mq@gmail.com"
+  155  git config user.name "aaminahmq"
+  156   git commit -m "Aaminah Mohammad added to collaborators"
+  157  git push
+  158  ls
+  159  echo "pwd"
+  160  echo'pwd'
+  161  echo $HOME
+  162  ls
+  163  cd
+  164  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles.git
+  165  ls
+  166  cd CS131_fa24_datafiles/
+  167  wc -1 goodluck.txt
+  168  wc goodluck.txt
+  169  ls
+  170  cd Lec02/
+  171  wc goodluck.txt 
+  172  egrep "wor" goodluck.txt 
+  173  pwd
+  174  echo "me"
+  175  cd CS131_fa24_datafiles/
+  176  cd Lec02/
+  177  egrep "wor" goodluck.txt 
+  178  egrep "dred" goodluck.txt 
+  179  egrep --help
+  180  grep word goodluck.txt 
+  181  grep wor goodluck.txt 
+  182  *
+  183  [wor]
+  184  grep "[wor[]]*" goodluck.txt 
+  185  grep "wor[a-z]*" goodluck.txt 
+  186  grep "wor[]*" goodluck.txt 
+  187  grep "dred[a-z]*" goodluck.txt 
+  188  wc -1 goodluck.txt 
+  189  wc "wor" goodluck.txt 
+  190  ls
+  191  cd CS131_fa24_datafiles/
+  192  cd CS131_fa24_datafiles/
+  193  ls
+  194  cd Lec02/
+  195  wc -1 goodluck.txt 
+  196  wc goodluck.txt 
+  197  egrep "wor" goodluck.txt 
+  198  wc "word" goodluck.txt 
+  199  wc "wor" goodluck.txt 
+  200  cd
+  201  ls
+  202  mkdir mohammad_A4_shell
+  203  ls
+  204  cd mohammad_A4_shell/
+  205  touch class_practice.sh
+  206  ls
+  207  vi class_practice.sh 
+  208  cd cl
+  209  vi class_practice.sh 
+  210  sh class_practice.sh Aaminah Mohammad
+  211  vi class_practice.sh 
+  212  sh class_practice.sh Aaminah Mohammad
+  213  vi class_practice.sh 
+  214  sh class_practice.sh Aaminah Mohammad
+  215  vi class_practice.sh 
+  216  sh class_practice.sh Aaminah Mohammad
+  217  vi class_practice.sh 
+  218  sh class_practice.sh Aaminah Mohammad
+  219  vi class_practice.sh 
+  220  sh class_practice.sh Aaminah Mohammad
+  221  vi class_practice.sh 
+  222  cd
+  223  mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
+  224  vi ~/.vimrc
+  225  ls
+  226  cd CS131_fa24_datafiles/
+  227  ls
+  228  cd Lec02/
+  229  ls
+  230  grep -o '\bwor\w*' goodluck.txt
+  231  grep -o '\w*dred\w*' goodluck.txt
+  232* 
+  233  grep "Good luck, babe" goodluck.txt | wc -l
+  234  grep "Good luck, babe" goodluck.txt | wc -w
+  235  grep "Good luck, babe" goodluck.txt | wc -l > Mohammad-A_a2_counts.txt
+  236  grep "Good luck, babe" goodluck.txt | wc -w >> Mohammad-A_a2_counts.txt
+  237  ls
+  238  vi Mohammad-A_a2_counts.txt
+  239  grep -o '\w*dred\w*' goodluck.txt
+  240  grep "Good luck, babe" goodluck.txt | wc -l
+  241  grep "Good luck, babe" goodluck.txt | wc -w
+  242  grep -o '\bwor\w*' goodluck.txt
+  243  vi Mohammad-A_a2_counts.txt 
+  244  grep "Good luck, babe" goodluck.txt
+  245  vi Mohammad-A_a2_counts.txt 
+  246  history > Mohammad-A_a2_cmds.log
