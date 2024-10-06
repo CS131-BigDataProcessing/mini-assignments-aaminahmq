@@ -1,0 +1,557 @@
+    1  git clone git@github.com:aaminahmq/a1-collab-aaminahmq.gi
+    2  git clone git@github.com:aaminahmq/a1-collab-aaminahmq.git
+    3  git clone https://github.com/aaminahmq/a1-collab-aaminahmq.git
+    4  git branch aaminahmq-colab
+    5  ls
+    6  sd
+    7  cd
+    8  cd a1-collab-aaminahmq/
+    9  git branch aaminahmq-colab
+   10  git branch
+   11  git checkout aaminahmq-collab
+   12  git checkout aaminahmq-colab
+   13  ls
+   14  vi
+   15  passwd
+   16  wget www.github.com
+   17  git clone git@github.com:your/github/repository
+   18  git clone git@github.com:aaminahmq/a1-collab-aaminahmq
+   19  git clone https://github.com/aaminahmq/a1-collab-aaminahmq.git
+   20  ls
+   21  cd
+   22  cd a1-collab-aaminahmq/
+   23  git branch aaminahmq-collab
+   24  git branch aaminahmq-colab
+   25  git checkout aaminahmq-colab
+   26  git checkout aaminahmq-collab
+   27  git branch
+   28  vi Collaborators.md 
+   29  git status
+   30  cd [https://github.com/aaminahmq/a1-collab-aaminahmq.git]
+   31  cd https://github.com/aaminahmq/a1-collab-aaminahmq.git
+   32  ls
+   33  git status
+   34  git branch
+   35  git clone https://github.com/aaminahmq/a1-collab-aaminahmq.git
+   36  cd a1-collab-aaminahmq/
+   37  git branch
+   38  git status
+   39  cd a1-colab-aaminahmq
+   40  cd a1-colab-aaminahmq/
+   41  vi Collaborators.md 
+   42  git status
+   43  git push --set-upstream origin aaminahmq-collab
+   44  git pull origin main 
+   45  git checkout main
+   46  git merge aaminahmq-collab
+   47  git add Collaborators.md 
+   48  git commit -m
+   49  git commit -m "Finished adding my name Aaminah Mohammad and favorite restaurant in the Collaborators.md file" 
+   50  git commit -m :"Aaminah Mohammad added to collaborators"
+   51  cd 
+   52  git clone git@github.com:aaminahmq/a1-collab-aaminahmq.git
+   53  ls -f
+   54  ls
+   55  ls -f/
+   56  la-latr
+   57  ls-latr
+   58  ls -latr
+   59  git remote -v
+   60  cd a1-collab-aaminahmq/
+   61  git remote -v
+   62  git remote set-url origin git@github.com:aaminahmq/a1-collab-aaminahmq.git
+   63  git status
+   64  git branch
+   65  git checkout aaminahmq-col
+   66  git checkout aaminahmq-collab
+   67  vi Collaborators.md 
+   68  ls
+   69  git pull origin main 
+   70  pwd
+   71  git add Collaborators.md 
+   72  git commit -m "Aaminah Mohammad added to collaborators"
+   73  git pull
+   74  ls -a
+   75  cd
+   76  nano ~/.ssh/config
+   77   ls -al ~/.ssh
+   78   ssh-keygen -t ed25519 -C "aaminah.mq@gmail.com"
+   79  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+   80  Start-Service ssh-agent
+   81  ssh-add /mnt/scratch/FA24_CS131_Jessica/amohammadfa24/.ssh/id_ed25519.pub.
+   82  ls
+   83  git remote -v
+   84  cd
+   85  cd a1-collab-aaminahmq/
+   86  git remote -v
+   87  git remote set-url origin git@github.com:aaminahmq/a1-collab-aaminahmq.git
+   88  git branch
+   89  git status
+   90  git push --set-upstream origin aaminahmq-collab
+   91  git pull origin main
+   92  ls ~/.ssh/*.pub
+   93  ssh-keygen -t ed25519 -C "aaminah.mq@gmail.com"
+   94  cat ~/.ssh/id_rsa.pub
+   95   ssh-keygen -t ed25519 -C "aaminah.mq@gmail.com"
+   96  cat ~/.ssh/id_rsa.pub
+   97  cd
+   98  cat ~/.ssh/id_rsa.pub
+   99  pbcopy < ~/.ssh/id_rsa.pub
+  100  eval "$(ssh-agent -s)"
+  101   open ~/.ssh/config
+  102  pbcopy < ~/.ssh/id_ed25519.pub
+  103  ls
+  104  cd a1-collab-aaminahmq/
+  105  git push --set-upstream origin aaminahmq-collab
+  106  git branch
+  107  git checkout aaminahmq-col
+  108  git checkout aaminahmq-collab
+  109  git pull origin main 
+  110  git checkout main
+  111  git merge aaminahmq-collab
+  112  git add Collaborators.md 
+  113  git commit 'm "Aaminah Mohammad added to the collaborators"
+  114  git push
+  115  ls -al ~/.ssh
+  116  eval"$(ssh-agent -s)"
+  117  cd
+  118  ssh-keygen -t rsa -b 4096 -C "aaminah.mq@gmail.com"
+  119  eval"$(ssh-agent -s)"
+  120  ssh-agent
+  121  env=~/.ssh/agent.env
+  122  agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+  123  agent_start () {     (umask 077; ssh-agent >| "$env");     . "$env" >| /dev/null ; }
+  124  agent_load_env
+  125  # agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+  126  agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+  127  if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then     agent_start;     ssh-add; elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then     ssh-add; fi
+  128  unset env
+  129  cd
+  130  ls
+  131  cd a1-collab-aaminahmq/
+  132  git status
+  133  git pull origin main
+  134  cd
+  135  env=~/.ssh/agent.env
+  136  agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+  137  agent_start () {     (umask 077; ssh-agent >| "$env");     . "$env" >| /dev/null ; }
+  138  agent_load_env
+  139  # agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+  140  agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+  141  if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then     agent_start;     ssh-add; elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then     ssh-add; fi
+  142  unset env
+  143  ssh-add 
+  144  eval"$(ssh-agent -s)"
+  145  ssh-keygen -t rsa -b 4096 -C "aaminah.mq@gmail.com"
+  146  eval"$(ssh-agent -s)"
+  147  ssh-add ~/.ssh/id_rsa
+  148  cat ~/.ssh/id_ed25519.pub
+  149  cd a1-collab-aaminahmq/
+  150  git status
+  151  cd a1-collab-aaminahmq/
+  152  git add Collaborators.md 
+  153  git commit -m "Aaminah Mohammad added to collaborators"
+  154  git config user.email "aaminah.mq@gmail.com"
+  155  git config user.name "aaminahmq"
+  156   git commit -m "Aaminah Mohammad added to collaborators"
+  157  git push
+  158  ls
+  159  echo "pwd"
+  160  echo'pwd'
+  161  echo $HOME
+  162  ls
+  163  cd
+  164  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles.git
+  165  ls
+  166  cd CS131_fa24_datafiles/
+  167  wc -1 goodluck.txt
+  168  wc goodluck.txt
+  169  ls
+  170  cd Lec02/
+  171  wc goodluck.txt 
+  172  egrep "wor" goodluck.txt 
+  173  pwd
+  174  echo "me"
+  175  cd CS131_fa24_datafiles/
+  176  cd Lec02/
+  177  egrep "wor" goodluck.txt 
+  178  egrep "dred" goodluck.txt 
+  179  egrep --help
+  180  grep word goodluck.txt 
+  181  grep wor goodluck.txt 
+  182  *
+  183  [wor]
+  184  grep "[wor[]]*" goodluck.txt 
+  185  grep "wor[a-z]*" goodluck.txt 
+  186  grep "wor[]*" goodluck.txt 
+  187  grep "dred[a-z]*" goodluck.txt 
+  188  wc -1 goodluck.txt 
+  189  wc "wor" goodluck.txt 
+  190  ls
+  191  cd CS131_fa24_datafiles/
+  192  cd CS131_fa24_datafiles/
+  193  ls
+  194  cd Lec02/
+  195  wc -1 goodluck.txt 
+  196  wc goodluck.txt 
+  197  egrep "wor" goodluck.txt 
+  198  wc "word" goodluck.txt 
+  199  wc "wor" goodluck.txt 
+  200  cd
+  201  ls
+  202  mkdir mohammad_A4_shell
+  203  ls
+  204  cd mohammad_A4_shell/
+  205  touch class_practice.sh
+  206  ls
+  207  vi class_practice.sh 
+  208  cd cl
+  209  vi class_practice.sh 
+  210  sh class_practice.sh Aaminah Mohammad
+  211  vi class_practice.sh 
+  212  sh class_practice.sh Aaminah Mohammad
+  213  vi class_practice.sh 
+  214  sh class_practice.sh Aaminah Mohammad
+  215  vi class_practice.sh 
+  216  sh class_practice.sh Aaminah Mohammad
+  217  vi class_practice.sh 
+  218  sh class_practice.sh Aaminah Mohammad
+  219  vi class_practice.sh 
+  220  sh class_practice.sh Aaminah Mohammad
+  221  vi class_practice.sh 
+  222  cd
+  223  mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
+  224  vi ~/.vimrc
+  225  ls
+  226  cd CS131_fa24_datafiles/
+  227  ls
+  228  cd Lec02/
+  229  ls
+  230  grep -o '\bwor\w*' goodluck.txt
+  231  grep -o '\w*dred\w*' goodluck.txt
+  232  grep "Good luck, babe" goodluck.txt | wc -l
+  233  grep "Good luck, babe" goodluck.txt | wc -w
+  234  grep "Good luck, babe" goodluck.txt | wc -l > Mohammad-A_a2_counts.txt
+  235  grep "Good luck, babe" goodluck.txt | wc -w >> Mohammad-A_a2_counts.txt
+  236  ls
+  237  vi Mohammad-A_a2_counts.txt
+  238  grep -o '\w*dred\w*' goodluck.txt
+  239  grep "Good luck, babe" goodluck.txt | wc -l
+  240  grep "Good luck, babe" goodluck.txt | wc -w
+  241  grep -o '\bwor\w*' goodluck.txt
+  242  vi Mohammad-A_a2_counts.txt 
+  243  grep "Good luck, babe" goodluck.txt
+  244  vi Mohammad-A_a2_counts.txt 
+  245  history > Mohammad-A_a2_cmds.log
+  246  mkdir Mohammad-A_A2
+  247  mv Mohammad-A_a2_counts.txt Mohammad-A_a2_cmds.log Mohammad-A_A2/
+  248  ls
+  249  cd Mohammad-A_A2/
+  250  ls
+  251  vi Mohammad-A_a2_counts.txt
+  252  ls
+  253  cd CS131_fa24_datafiles/
+  254  ls
+  255  cd Lec02/
+  256  la
+  257  ls
+  258  cd Mohammad-A_A2/
+  259  ls
+  260  vi Mohammad-A_a2_counts.txt 
+  261  cd
+  262  ls
+  263  git clone git@github.com:CS131-BigDataProcessing/mini-assignments-aaminahmq.git
+  264  ls
+  265  ls mini-assignments-aaminahmq/
+  266  ls -a
+  267  cd CS131_fa24_datafiles/
+  268  ls
+  269  cd Lec02/
+  270  ls
+  271  cp -r Mohammad-A_A2/ ../../mini-assignments-aaminahmq/.
+  272  ls ../../mini-assignments-aaminahmq/
+  273  ls -a ../../mini-assignments-aaminahmq/
+  274  cd
+  275  ls
+  276  cd mini-assignments-aaminahmq/
+  277  git add Mohammad-A_A2/*
+  278  git status
+  279  git commit
+  280  git commit -m "Added Assignment A2 goodluck"
+  281  git config --global user.email "aaminah.mq@gmail.com"
+  282  git config --global user.name "Aaminah Mohammad"
+  283  git commit -m "Added Assignment A2 goodluck"
+  284  git push
+  285  cd
+  286  ls -a
+  287  cat /etc/profile
+  288  ls
+  289  vi mohammad_A4_shell/
+  290  vi ~/.vimrc
+  291  ls
+  292  cd mohammad_A4_shell/
+  293  la
+  294  ls
+  295  vi class_practice.sh 
+  296  cd
+  297  ls -a
+  298  ~/.bash_profile
+  299  clear
+  300  vi ~/.bashrc
+  301  las
+  302  ls
+  303  vi ~/.bashrc
+  304  ll
+  305  lsa
+  306  cls
+  307  ls -a
+  308  lsa
+  309  cd mohammad_A4_shell/
+  310  ls
+  311  sh class_practice.sh 
+  312  cd
+  313  cd min
+  314  cd mini-assignments-aaminahmq/
+  315  mkdir mohammada_A4
+  316  ls
+  317  git status
+  318  who
+  319  date
+  320  $HOME
+  321  $USER
+  322  ls
+  323  cd mohammada_A4/
+  324  touch echoing.sh
+  325  ls
+  326  vi echoing.sh 
+  327  cd
+  328  ls
+  329  cd mohammad_A4_shell/
+  330  vi class_practice.sh 
+  331  sh class_practice.sh 
+  332  cd
+  333  cd mini-assignments-aaminahmq/
+  334  ls
+  335  cd mohammada_A4/
+  336  vi echoing.sh 
+  337  sh echoing.sh 
+  338  vi echoing.sh 
+  339  sh echoing.sh 
+  340  $HOMW
+  341  $HOME
+  342  $USER
+  343  vi echoing.sh 
+  344  sh echoing.sh 
+  345  vi echoing.sh 
+  346  sh echoing.sh 
+  347  vi echoing.sh 
+  348  sh echoing.sh 
+  349  cd
+  350  ls
+  351  cd mohammad_A4_shell/
+  352  ls
+  353  vi class_practice.sh 
+  354  cd
+  355  cd mini-assignments-aaminahmq/
+  356  ls
+  357  cd mohammada_A4/
+  358  vi echoing.sh 
+  359  sh echoing.sh 
+  360  vi echoing.sh 
+  361  sh echoing.sh 
+  362  vi echoing.sh 
+  363  sh echoing.sh 
+  364  vi echoing.sh 
+  365  sh echoing.sh 
+  366  vi echoing.sh 
+  367  ls
+  368  cd mini-assignments-aaminahmq/
+  369  ls
+  370  cd mohammada_A4/
+  371  ls
+  372  vi echoing.sh 
+  373  sh echoing.sh 
+  374  sh echoing.sh Aaminah, 2000
+  375  vi echoing.sh 
+  376  sh echoing.sh Aaminah, 2000
+  377  vi echoing.sh 
+  378  sh echoing.sh Aaminah, 2000
+  379  vi echoing.sh 
+  380  sh echoing.sh Aaminah, 2000
+  381  cls
+  382  sh echoing.sh Aaminah, 2000
+  383  cd.
+  384  cd .
+  385  ls
+  386  cd
+  387  ls
+  388  cd mini-assignments-aaminahmq/
+  389  ls
+  390  git add mohammada_A4/
+  391  git status
+  392  git commit -m "Aaminah Adding Activity 4 Basic Shell Scripting"
+  393  git push
+  394  cd..
+  395  cd ..
+  396  ls
+  397  ls mohammad_A4_shell/
+  398  cd mohammad_A4_shell/
+  399  cd
+  400  cd mohammad_A4_shell/
+  401  vi class_practice.sh 
+  402  sh class_practice.sh amohammadfa24
+  403  sh class_practice.sh
+  404  cls
+  405  sh class_practice.sh amohammadfa24
+  406  vi class_practice.sh 
+  407  sh class_practice.sh amohammadfa24
+  408  sh class_practice.sh amohammad
+  409  vi class_practice.sh 
+  410  vi class_practice.sh sammy
+  411  vi class_practice.sh sam
+  412  sh class_practice.sh amohammadfa24
+  413  vi class_practice.sh 
+  414  cls
+  415  sh class_practice.sh amohammadfa24
+  416  sh class_practice.sh amohammadfa24 all
+  417  cls
+  418  cd
+  419  mkdir mohammadA_A5
+  420  ls
+  421  rm -r mohammadA_A5/
+  422  ls
+  423  cls
+  424  cd mini-assignments-aaminahmq/
+  425  mkdir mohammadA_A5
+  426  ls
+  427  touch age.sh
+  428  ls
+  429  rm age.sh 
+  430  ls
+  431  cls
+  432  ls
+  433  cd mohammadA_A5/
+  434  touch age.sh
+  435  touch temperature.sh
+  436  ls
+  437  vi age.sh 
+  438  cd mi
+  439  ls
+  440  cd mini-assignments-aaminahmq/
+  441  ls
+  442  cd CS131_fa24_datafiles/
+  443  ls
+  444  cd Lec02/
+  445  ls
+  446  vi goodluck.txt /good
+  447  vi goodluck.txt 
+  448  cls
+  449  ls
+  450  cd mini-assignments-aaminahmq/
+  451  ls
+  452  cd mohammadA_A5/
+  453  ls
+  454  vi age.sh 
+  455  ls
+  456  vi age.sh 
+  457  sh age.sh 12
+  458  sh age.sh 13
+  459  sh age.sh 120
+  460  sh age.sh 20
+  461  sh age.sh 19
+  462  vi temperature.sh 
+  463  sh temperature.sh 23
+  464  sh temperature.sh 50
+  465  sh temperature.sh 55
+  466  sh temperature.sh 65
+  467  sh temperature.sh 80
+  468  sh temperature.sh 90
+  469  sh temperature.sh 67
+  470  ls
+  471  cd mini-assignments-aaminahmq/
+  472  ls
+  473  cd mohammada_A4/
+  474  ls
+  475  vi echoing.sh 
+  476  cd mini-assignments-aaminahmq/
+  477  ls
+  478  cd mohammadA_A5/
+  479  ls
+  480  sh age.sh 5
+  481  sh age.sh 17
+  482  sh age.sh 48
+  483  sh age.sh 72
+  484  sh temperature.sh 62
+  485  sh temperature.sh 5
+  486  sh temperature.sh 97
+  487  sh temperature.sh 73
+  488  vi age.sh 
+  489  vi temperature.sh 
+  490  cd ..
+  491  ls
+  492  git add mohammadA_A5/
+  493  git status
+  494  git commit -m "Aaminah Adding A5 to mini assignments"
+  495  git push
+  496  cd
+  497  la
+  498  ls
+  499  cd CS131_fa24_datafiles/
+  500  ls
+  501  git pull
+  502  ls
+  503  cd Lec02
+  504  ls
+  505  cd..
+  506  cd ..
+  507  cd Lec08
+  508  ls
+  509  head airline_stats.csv 
+  510  ls
+  511  cd mini-assignments-aaminahmq/
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd CS131_fa24_datafiles/
+  516  ls
+  517  cd Lec08
+  518  ls
+  519  awk -F',' '{print $2}' airline_stat.csv | sort | uniq
+  520  cls
+  521  awk -F',' '{print $2}' airline_stats.csv | sort | uniq
+  522  cls
+  523  vi airline_stats.csv 
+  524  awk -F',' '{print $4}' airline_stats.csv | sort | uniq
+  525  awk -F',' '$1 > 10 {print $4}' airline_stats.csv | sort
+  526  awk -F',' '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  527  Threshold=15
+  528  awk -F',' -v threshold="$Threshold" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  529  awk -F',' -v 15="$15" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  530  awk -F',' -v threshold="$15" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  531  awk -F',' '{print $4}' airline_stats.csv | sort | uniq
+  532  cd
+  533  tree ..
+  534  cls
+  535  awk -F',' '{print $4}' airline_stats.csv | sort | uniq
+  536  cls
+  537  cd CS131_fa24_datafiles/
+  538  cd Lec08
+  539  ls
+  540  awk -F',' '{print $4}' airline_stats.csv | sort | uniq
+  541  awk -F',' '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  542  awk -F',' -v 15="$15" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  543  awk -F',' -v threshold="$15" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  544  cd CS131_fa24_datafiles/
+  545  cd Lec08
+  546   awk -F',' '{print $4}' airline_stats.csv | sort | uniq >>airline_inquiry.txt
+  547  echo -e "\n2. Command used:  awk -F',' '{print $4}' airline_stats.csv | sort | uniq" >>airline_inquiry.txt 
+  548  vi airline_inquiry.txt 
+  549  echo -e "\n2. Airlines with a carrier delay greater than 10:" >> airline_inquiry.txt
+  550  awk -F',' '$1 > 10 {print $4}' airline_stats.csv | sort | uniq >>airline_inquiry.txt 
+  551  echo -e "\n Command Used: awk -F',' '$1 > 10 {print $4}' airline_stats.csv | sort | uniq" >> airline_inquiry.txt
+  552  vi airline_inquiry.txt 
+  553  echo -e "\n3. Airlines with a carrier delay greater than 15:" >> airline_inquiry.txt
+  554   awk -F',' -v threshold="$15" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq >>airline_inquiry.txt 
+  555  echo -e "Command used:  awk -F',' -v threshold="$15" '$1 > threshold {print $4}' airline_stats.csv | sort | uniq" >>airline_inquiry.txt 
+  556  vi airline_inquiry.txt 
+  557  history > a6_cmds.log
