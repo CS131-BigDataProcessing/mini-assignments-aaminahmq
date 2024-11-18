@@ -1,0 +1,22 @@
+Daily File Cleanup Using Cron
+
+A cron job was set up to delete all files from the /mnt/scratch/FA24_CS131_Jessica/amohammadfa24/temp directory every day at 2:00 AM.
+0 2 * * * rm -rf /mnt/scratch/FA24_CS131_Jessica/amohammadfa24/temp
+Test files were placed in the directory, and after 2:00 AM, the directory was confirmed to be empty.
+
+
+Weekly System Backup Using Cron
+
+A backup script (backup.sh) was created to compress the home directory /mnt/scratch/FA24_CS131_Jessica/amohammadfa24 directory and save it in a backup directory.
+The cron job was scheduled to run every Sunday at 3:00 AM.
+0 3 * * 0 /mnt/scratch/FA24_CS131_Jessica/amohammadfa24/mini-assignments-aaminahmq/A9_cron/backup.sh
+The backup.sh shell script:
+ #!/bin/bash
+tar -czf /mnt/scratch/FA24_CS131_Jessica/amohammadfa24/backup$(date +%Y%m%d).tar.gz /mnt/scratch/FA24_CS131_Jessica/amoham    madfa24
+
+Disk Usage Report Using Cron
+
+A cron job was set up to send a disk usage report by email every day at 8:30 AM.
+The command added to crontab:
+30 8 * * * df -h | mail -s "Daily Disk Usage Report" aaminah.mohammad@sjsu.edu
+
