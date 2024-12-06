@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: crime_test
+Version: 1.0.0
+Summary: A package for validating and analyzing crime data
+Author: Aaminah Mohammad
+Author-email: aaminah@example.com
+Requires-Dist: pandas
+Requires-Dist: numpy
