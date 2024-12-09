@@ -1,0 +1,5 @@
+2024-12-08 18:14:43	-	pedantic_pike	-	9a69f787b0a731d8c23c1aebc3c662ab	c3482ef9-04ec-4a01-8f01-e92646676211	nextflow run allcaps.nf
+2024-12-08 18:16:10	1.9s	stupefied_bartik	OK	3e90963b276cc7483f89aa54553be8c3	6e62ddc5-956f-4c40-81b6-915779f993b8	nextflow run allcaps.nf
+2024-12-08 18:21:43	2.1s	tiny_lichterman	OK	3e90963b276cc7483f89aa54553be8c3	1171d0fd-eee8-4282-9de3-9e9d492552db	nextflow run allcaps.nf
+2024-12-08 18:23:25	1.4s	high_perlman	OK	0adc56590143e0404b690aecd2697b0d	9d1ad0dd-aa44-4e11-82ba-8837ebf5ad6f	nextflow run allcaps.nf
+2024-12-08 18:24:55	2s	goofy_marconi	OK	0adc56590143e0404b690aecd2697b0d	69c7a7c5-8bb6-4687-8133-055c1e13a90f	nextflow run allcaps.nf
